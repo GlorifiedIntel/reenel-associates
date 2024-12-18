@@ -2635,3 +2635,12 @@ section,
   margin-left: 900px;
   margin-top: 20px;
 }
+
+.reenel-button-2 {
+  margin-top: 20px;
+  
+}
+
+.reenel-button-2:hover {
+  background-color: #e03a3c;
+}
