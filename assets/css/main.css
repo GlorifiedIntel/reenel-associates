@@ -2641,9 +2641,15 @@ section,
 
 .reenel-button-2:hover {
   background-color: #e03a3c;
+  border: none;
 }
 
 .lead {
   text-align: justify;
   font-size: 17px;
+}
+
+.reenel-link:hover {
+  color:#f8a012;
+  text-decoration: underline;
 }
