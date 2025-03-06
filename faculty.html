@@ -26,6 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" />
 </head>
 
 <body class="starter-page-page">
@@ -42,7 +43,7 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home<br></a></li>
-          <li class="dropdown"><a href="about.html" class="active"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="about.html"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="about.html">Reenel Associates</a></li>
               <li><a href="aboutmaureen.html">Mauren Ugorji</a></li>
@@ -52,7 +53,7 @@
           </li>
           <li><a href="services.html">Services</a></li>
           <li><a href="projects.html">Portfolio</a></li>
-          <li><a href="faculty.html">Faculty</a></li>
+          <li><a href="faculty.html" class="active">Faculty</a></li>
           <li><a href="blog.html">Blog</a></li>
           
           <li><a href="contact.html">Contact</a></li>
@@ -64,84 +65,124 @@
 
     </div>
   </header>
-
-  <main class="main">
-    <section class="py-5">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 order-2 order-lg-1">
-            <div class="row g-3">
-              <div class="col-sm-6">
-                <div class="card text-center border-0 bg-light">
-                  <div class="card-body px-4 py-4">
-                    <div class="mb-4 mx-2 mx-md-5"><img class="img-fluid rounded-circle" src="./assets/img/team/maureen.jpg"></div>
-                    <h5 class="fw-bold">Maureen Ugorji</h5>
-                    <div class="text-muted">
-                      President/CEO
-                    </div>
-                  </div>
-                  <div class="card-footer bg-dark">
-                    <small><a class="btn text-white reenel-link" href="aboutmaureen.html" role="button">More</a></small>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card text-center border-0 bg-light">
-                  <div class="card-body px-4 py-4">
-                    <div class="mb-4 mx-2 mx-md-5"><img class="img-fluid rounded-circle" src="./assets/img/team/olufemi.jpg"></div>
-                    <h5 class="fw-bold">Olufemi</h5>
-                    <div class="text-muted">
-                      Lead Trainer
-                    </div>
-                  </div>
-                  <div class="card-footer bg-dark">
-                    <small><a class="btn text-white reenel-link" href="olufemi.html" role="button">More</a></small>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card text-center border-0 bg-light">
-                  <div class="card-body px-4 py-4">
-                    <div class="mb-4 mx-2 mx-md-5"><img class="img-fluid rounded-circle" src="./assets/img/team/Anie.jpg"></div>
-                    <h5 class="fw-bold">Annie George</h5>
-                    <div class="text-muted">
-                      Trainer
-                    </div>
-                  </div>
-                  <div class="card-footer bg-dark">
-                    <small><a class="btn text-white reenel-link" href="annie-george.html" role="button">More</a></small>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card text-center border-0 bg-light">
-                  <div class="card-body px-4 py-4">
-                    <div class="mb-4 mx-2 mx-md-5"><img class="img-fluid rounded-circle" src="./assets/img/team/saa.jpg"></div>
-                    <h5 class="fw-bold">Saa Adamu</h5>
-                    <div class="text-muted">
-                      Trainer
-                    </div>
-                  </div>
-                  <div class="card-footer bg-dark">
-                    <small><a class="btn text-white reenel-link" href="saa-adamu.html" role="button">More</a></small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2">
-            <div class="ms-lg-5 mb-5">
-              <span class="text-muted">Our Team</span>
-              <h2 class="display-5 fw-bold mb-3 mb-xl-5">Our Leadership</h2>
-              <p class="lead">Reenel Associates' leadership embodies a team of dedicated professionals with extensive experience in their respective fields. Committed to excellence, they prioritize innovative solutions, client satisfaction, and ethical practices. Their collaborative approach fosters a culture of inclusivity and continuous improvement, ensuring that every project meets the highest standards of quality and professionalism.</p>
-              <p class="lead">To find out more about each of our team member, click on the <strong>"More"</strong> Button.</p>
-            </div>
-          </div>
-        </div>
+  <!-- Content section 1-->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="text-center">Our Faculty</h1>
+        <p class="text-center">Our faculty is made up of seasoned professionals with years of experience in their respective fields. They are dedicated to helping you achieve your goals and develop yourself. They are also Structured and designed to align with our core focus areas of capacity building, training, retreats, conferences, empowerment, outsourcing, logistics, exhibitions, and consultancy services.</p>
       </div>
-    </section>
-   
-  </main>
+    </div>
+  </div>
+  <section id="scroll">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/01.jpg" alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-6">Leadership & Capacity Building</h2>
+                    <p>Developing leadership and management skills for professionals in both public and private sectors.</p>
+                    <ul>
+                      <li>Executive Leadership & Strategic Thinking</li>
+                      <li>Public Sector Governance & Policy Reforms</li>
+                      <li>Change Management & Organizational Development</li>
+                      <li>Ethical Leadership & Corporate Governance</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Content section 2-->
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..." /></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <h2 class="display-6">Training & Human Capital Development</h2>
+                    <p>Workforce training, skills development, and personal growth programs.</p>
+                    <ul>
+                      <li>Talent Development & Performance Management</li>
+                      <li>Workforce Upskilling & Digital Transformation</li>
+                      <li>Emotional Intelligence & Workplace Ethics</li>
+                      <li>Public Speaking & Effective Communication</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Content section 3-->
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/03.jpg" alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-6">Retreat & Conference Management</h2>
+                    <p>Planning and executing corporate retreats, conferences, and team-building events.</p>
+                    <ul>
+                      <li>Corporate Event Planning & Execution</li>
+                      <li>Team Building & Motivation Strategies</li>
+                      <li>Wellness & Productivity Retreats</li>
+                      <li>Conference Content Development & Facilitation</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ <!-- Content section 4-->
+ <section>
+  <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+          <div class="col-lg-6">
+              <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..." /></div>
+          </div>
+          <div class="col-lg-6">
+              <div class="p-5">
+                  <h2 class="display-6">Empowerment & Entrepreneurship</h2>
+                  <p>Equipping individuals and businesses with skills for self-sufficiency and economic growth.</p>
+                  <ul>
+                    <li>Entrepreneurial Mindset & Business Development</li>
+                    <li>Financial Literacy & Wealth Creation</li>
+                    <li>Women & Youth Empowerment Programs</li>
+                    <li>Social Enterprise & Impact-driven Business Models</li>
+                </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+ <!-- Content section 5-->
+ <section>
+  <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+          <div class="col-lg-6 order-lg-2">
+              <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/03.jpg" alt="..." /></div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+              <div class="p-5">
+                  <h2 class="display-6">Outsourcing & Business Solutions</h2>
+                  <p>Supporting organizations with outsourcing and business process improvement.</p>
+                  <ul>
+                    <li>HR Outsourcing & Talent Acquisition</li>
+                    <li>Business Process Optimization</li>
+                    <li>Customer Experience & Service Excellence</li>
+                    <li>IT & Digital Transformation Solutions</li>
+                </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
 
   <footer id="footer" class="footer dark-background">
     <div class="container footer-top">
@@ -224,6 +265,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="js/scripts.js"></script>
 
 </body>
 
